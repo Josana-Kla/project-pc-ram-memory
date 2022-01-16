@@ -16,5 +16,5 @@ const status = {
 
 console.clear(); 
 console.table(status);
-
+exports.stats = status;
 }, 1000);
